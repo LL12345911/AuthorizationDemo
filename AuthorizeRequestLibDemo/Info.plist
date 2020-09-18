@@ -60,5 +60,20 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>App需要您的同意，才能获取当前位置上传签到</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>App需要后台获取您的地理信息才能使用轨迹巡查功能</string>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+        <key> WantsToNavigate</key>
+        <string>您的精确位置将被用来精确定位上报的道路病害位置、记录您巡查的道路信息，以及为您提供精确导航使您精确找到您要修复的道路病害。</string>
+        <key>TacoFeature</key>
+        <string>您的精确位置将被用来精确定位上报的道路病害位置、记录您巡查的道路信息，以及为您提供精确导航使您精确找到您要修复的道路病害。</string>
+    </dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>App需要您的同意，使用签到功能需要获取您的当前位置</string>
+    
 </dict>
 </plist>

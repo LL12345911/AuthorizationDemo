@@ -51,9 +51,13 @@
             case ALAuthorizationStatusNotDetermined:
                 return AuthorizationStatusNotDetermined;
                 break;
+            default:
+                return AuthorizationStatusDisabled;
+                break;
         }
 #pragma clang diagnostic pop
     }
+    return AuthorizationStatusDisabled;
 }
 
 - (BOOL)hasSpecificPermissionKeyFromInfoPlist {

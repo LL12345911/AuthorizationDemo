@@ -175,16 +175,16 @@
 		415771B12512F01800A37FC7 /* Permissions */ = {
 			isa = PBXGroup;
 			children = (
-				415771B22512F01800A37FC7 /* LocationAlwaysPermission.h */,
-				415771B32512F01800A37FC7 /* LocationInUsePermission.h */,
-				415771B42512F01800A37FC7 /* CameraPermission.m */,
-				415771B52512F01800A37FC7 /* NotificationPermission.h */,
-				415771B62512F01800A37FC7 /* PhotosPermission.h */,
-				415771B72512F01800A37FC7 /* LocationAlwaysPermission.m */,
 				415771B82512F01800A37FC7 /* CameraPermission.h */,
+				415771B42512F01800A37FC7 /* CameraPermission.m */,
+				415771B22512F01800A37FC7 /* LocationAlwaysPermission.h */,
+				415771B72512F01800A37FC7 /* LocationAlwaysPermission.m */,
+				415771B32512F01800A37FC7 /* LocationInUsePermission.h */,
 				415771B92512F01800A37FC7 /* LocationInUsePermission.m */,
-				415771BA2512F01800A37FC7 /* PhotosPermission.m */,
+				415771B52512F01800A37FC7 /* NotificationPermission.h */,
 				415771BB2512F01800A37FC7 /* NotificationPermission.m */,
+				415771B62512F01800A37FC7 /* PhotosPermission.h */,
+				415771BA2512F01800A37FC7 /* PhotosPermission.m */,
 			);
 			path = Permissions;
 			sourceTree = "<group>";
@@ -192,10 +192,10 @@
 		415771BD2512F01800A37FC7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				415771BE2512F01800A37FC7 /* Constant.h */,
-				415771BF2512F01800A37FC7 /* BasePermisssion.m */,
 				415771C02512F01800A37FC7 /* AuthorizationProtocol.h */,
 				415771C12512F01800A37FC7 /* BasePermisssion.h */,
+				415771BF2512F01800A37FC7 /* BasePermisssion.m */,
+				415771BE2512F01800A37FC7 /* Constant.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -510,7 +510,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CH9743AMZ;
 				INFOPLIST_FILE = AuthorizeRequestLibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +528,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CH9743AMZ;
 				INFOPLIST_FILE = AuthorizeRequestLibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
